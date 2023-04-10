@@ -1,3 +1,0 @@
-0:http://www.medsur.org/side_effect/10016330
-2:http://www.medsur.org/symptom/10061011
-1:http://www.medsur.org/symptom/10047786

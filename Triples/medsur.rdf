@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/medsur.owl"
+         xmlns="http://example.org/medsur.owl#">
+
+<owl:Ontology rdf:about="http://example.org/medsur.owl"/>
+
+<owl:ObjectProperty rdf:about="#hasAgeGroup">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#AgeGroup"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasWeightGroup">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#WeightGroup"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSOC">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#SOC"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasHLGT">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#HLGT"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasHLT">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#HLT"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPT">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#PT"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasLLT">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#LLT"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasOutcome">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#Outcome"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasGender">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#Gender"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#IsGivenDrug">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#Drug"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#IsOfDosis">
+  <rdfs:domain rdf:resource="#Drug"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#IsOfType">
+  <rdfs:domain rdf:resource="#Drug"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSideEffect">
+  <rdfs:domain rdf:resource="#Drug"/>
+  <rdfs:range rdf:resource="#SideEffects"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFrequency">
+  <rdfs:domain rdf:resource="#SideEffects"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#suffersSideEffects">
+  <rdfs:domain rdf:resource="#Patients"/>
+  <rdfs:range rdf:resource="#SideEffects"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Patients">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AgeGroup">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WeightGroup">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOC">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLGT">
+  <rdfs:subClassOf rdf:resource="#SOC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLT">
+  <rdfs:subClassOf rdf:resource="#HLGT"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PT">
+  <rdfs:subClassOf rdf:resource="#HLT"/>
+</owl:Class>
+
+<owl:Class rdf:about="#LLT">
+  <rdfs:subClassOf rdf:resource="#PT"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Outcome">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Gender">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SideEffects">
+  <rdfs:subClassOf rdf:resource="#PT"/>
+</owl:Class>
+
+
+</rdf:RDF>

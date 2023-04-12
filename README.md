@@ -51,16 +51,16 @@ This repository contains several jupyter notebooks for a project that explores t
 ## :sparkles: Features ##
 
 The project includes the following files:
-:heavy_check_mark: Feature 1; data_cleaning.ipynb: cleans the opiods_data_original_xlxs and also adds another dataset to it (sider_ouput.xlxl) and merges them to one file
-:heavy_check_mark: Feature 2; ontology_medsur.ipynb: builds an ontology from the dataet and exports it all the generated triples as a csv ttl and rdf file
-:heavy_check_mark: Feature 3; clustering_chars.ipynb: performs clustering machine learning on the data set medsur.csv based on patient characteristics using the ampligraph model
-:heavy_check_mark: Feature 4; clustering_symps.ipynb: performs clustering machine learning on the data set medsur.csv based on patient symptoms using the ampligraph model
-:heavy_check_mark: Feature 5; link_prediction.ipynb: performs 4 link predictions:
-outcome recovery for different weight groups of patients
-outcome recovery for different age groups of patients
-symptoms for different types of prescribed drugs
-side-effect occurrence for different types of prescribed drugs
-For each prediction, a CSV file is exported containing the prediction scores and probabilities for each group or drug type.
+\:heavy_check_mark: Feature 1; data_cleaning.ipynb: cleans the opiods_data_original_xlxs and also adds another dataset to it (sider_ouput.xlxl) and merges them to one file
+\:heavy_check_mark: Feature 2; ontology_medsur.ipynb: builds an ontology from the dataet and exports it all the generated triples as a csv ttl and rdf file
+\:heavy_check_mark: Feature 3; clustering_chars.ipynb: performs clustering machine learning on the data set medsur.csv based on patient characteristics using the ampligraph model
+\:heavy_check_mark: Feature 4; clustering_symps.ipynb: performs clustering machine learning on the data set medsur.csv based on patient symptoms using the ampligraph model
+\:heavy_check_mark: Feature 5; link_prediction.ipynb: performs 4 link predictions:
+\outcome recovery for different weight groups of patients
+\outcome recovery for different age groups of patients
+\symptoms for different types of prescribed drugs
+\side-effect occurrence for different types of prescribed drugs
+\For each prediction, a CSV file is exported containing the prediction scores and probabilities for each group or drug type.
 
 ## :rocket: Technologies ##
 

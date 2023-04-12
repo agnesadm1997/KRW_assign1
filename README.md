@@ -1,54 +1,98 @@
-# KRW_assign1
-KR_web
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="KRW_assign1" />
 
-README
-This repository contains files for a project on the analysis of opioid data. Below are instructions on how to clone the git and descriptions of each file.
+  &#xa0;
 
-How to Clone
-To clone this git, follow these steps:
+  <!-- <a href="https://krw_assign1.netlify.app">Demo</a> -->
+</div>
 
-Open your terminal.
-Navigate to the directory where you want to clone the git.
-Type git clone https://github.com/agnesadm1997/KRW_assign1.git.
-Press enter.
-Files
-data_cleaning.ipynb
-This file cleans the opioid_data_original_xlxs dataset and merges it with another dataset, sider_output.xlxl. The cleaned data is merged into one file.
+<h1 align="center">KRW_assign1</h1>
 
-ontology_medsur.ipynb
-This file builds an ontology from the dataset and exports all the generated triples as a csv ttl and rdf file.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8">
 
-clustering_chars.ipynb and clustering_symps.ipynb
-Both files are in the folder clustering and perform clustering machine learning on the dataset medsur.csv. They cluster on patient characteristics and patient symptoms using the ampligraph model.
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8">
 
-link_prediction.ipynb
-This file performs 4 link predictions:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8">
 
-Outcome recovery for different weight groups of patients.
-Outcome recovery for different age groups of patients.
-Symptoms for different types of prescribed drugs.
-Side-effect occurrence for different types of prescribed drugs.
-For each prediction, a csv file is exported containing the prediction scores and probabilities for each group or drug type.
+  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8">
 
-This file contains two important functions that may need some extra explanation:
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8" /> -->
 
-build_model(X_train, X_test, model = 'ComplEx', epochs = 1)
-This function builds a ComplEx model on the given dataset. It takes in three parameters:
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8" /> -->
 
-X_train: the training set.
-X_test: the testing set.
-model: the model type. Default is ComplEx.
-epochs: the number of epochs to train for. Default is 1.
-This function returns the built model.
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/krw_assign1?color=56BEB8" /> -->
+</p>
 
-link_prediction(model, df, cluster, predicate_link, X_training, X_testing, trip)
-This function predicts the probability of a (predicate) link between a cluster of patients and all possible outcomes. It takes in seven parameters:
+<!-- Status -->
 
-model: the trained model.
-df: the dataframe of all triples.
-cluster: the cluster of patients.
-predicate_link: the predicate link to predict.
-X_training: the training set.
-X_testing: the testing set.
-trip: the triple factory.
-This function returns two dataframes: df_ranking and df_results.
+<!-- <h4 align="center"> 
+	🚧  KRW_assign1 🚀 Under construction...  🚧
+</h4> 
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+Describe your project
+
+## :sparkles: Features ##
+
+:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3;
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :checkered_flag: Starting ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/krw_assign1
+
+# Access
+$ cd krw_assign1
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>

@@ -31,7 +31,7 @@
 
 ## :dart: About ##
 
-This project is aimed at providing a knowledge graph representation of the drug-medication interactions using the Medsur Dataset from Hetionet and the Side Effect Resource (SIDER) from the MeddrA [2] databases. It uses various knowledge graph embedding techniques. These embeddings can then be used for various downstream tasks such as clustering, link prediction, and visualization. 
+This project is aimed at providing a knowledge graph representation of the drug-medication interactions using the Medsur Dataset from Hetionet [1] and the Side Effect Resource (SIDER) from the MeddrA [2] databases. It uses various knowledge graph embedding techniques. These embeddings can then be used for various downstream tasks such as clustering, link prediction, and visualization. 
 
 AmpliGraph Models
 AmpliGraph is an open-source Python library for learning embeddings of entities and relations in a KG. It provides a set of models that can be used to generate embeddings. In this project link prediction is performed on the knowledge graph using the ComplEx model.

@@ -46,13 +46,21 @@
 
 ## :dart: About ##
 
-Describe your project
+This repository contains several jupyter notebooks for a project that explores the relationships between medication, patient characteristics, and patient outcomes. The project includes data cleaning, ontology building, and machine learning models for clustering and link prediction.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+The project includes the following files:
+:heavy_check_mark: Feature 1; data_cleaning.ipynb: cleans the opiods_data_original_xlxs and also adds another dataset to it (sider_ouput.xlxl) and merges them to one file
+:heavy_check_mark: Feature 2; ontology_medsur.ipynb: builds an ontology from the dataet and exports it all the generated triples as a csv ttl and rdf file
+:heavy_check_mark: Feature 3; clustering_chars.ipynb: performs clustering machine learning on the data set medsur.csv based on patient characteristics using the ampligraph model
+:heavy_check_mark: Feature 4; clustering_symps.ipynb: performs clustering machine learning on the data set medsur.csv based on patient symptoms using the ampligraph model
+:heavy_check_mark: Feature 5; link_prediction.ipynb: performs 4 link predictions:
+outcome recovery for different weight groups of patients
+outcome recovery for different age groups of patients
+symptoms for different types of prescribed drugs
+side-effect occurrence for different types of prescribed drugs
+For each prediction, a CSV file is exported containing the prediction scores and probabilities for each group or drug type.
 
 ## :rocket: Technologies ##
 
@@ -85,13 +93,6 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0;
 

@@ -38,15 +38,15 @@ AmpliGraph is an open-source Python library for learning embeddings of entities 
 
 Clustering
 Clustering is a technique used to group similar entities in a KG together based on their properties or relationships. In this project, we use clustering to identify groups of related entities in the KG. This projects focused on the following clustering:
-- cluster patients based on their characteristics (agegroup and weightgroup) \
+- cluster patients based on their characteristics (agegroup and weightgroup) 
 - cluster symptoms 
 
 Link Prediction
 Link prediction is the task of predicting missing relationships between entities in a KG. In this project, we use link prediction to predict missing relationships between entities in the KG. The projects focused on the following link predictions:
-- outcome recovery for different weight groups of patients \
-- outcome recovery for different age groups of patients \
-- symptoms for different types of prescribed drugs \
-- side-effect occurrence for different types of prescribed drugs \
+- outcome recovery for different weight groups of patients 
+- outcome recovery for different age groups of patients 
+- symptoms for different types of prescribed drugs 
+- side-effect occurrence for different types of prescribed drugs 
 
 ## :sparkles: Features ##
 This repository contains several jupyter notebooks for a project that explores the relationships between medication, patient characteristics, and patient outcomes. The project includes data cleaning, ontology building, and machine learning models for clustering and link prediction.
@@ -86,7 +86,7 @@ Open the desired notebook file and run the cells.
 &#xa0;
 
 ## Data sources ##
-[1] https://het.io/
-[2] https://www.meddra.org/
+[1] https://het.io/ \
+[2] https://www.meddra.org/ 
 
 <a href="#top">Back to top</a>

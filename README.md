@@ -62,37 +62,30 @@ symptoms for different types of prescribed drugs \
 side-effect occurrence for different types of prescribed drugs \
 For each prediction, a CSV file is exported containing the prediction scores and probabilities for each group or drug type.
 
-## :rocket: Technologies ##
+## :rocket: Tools ##
 
-The following tools were used in this project:
+The following tools were used in this project
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- Python 3.7 or higher
+- Jupyter Notebook
+- PyKEEN
+- AmpliGraph
+- Scipy
+- Tensorflow
+- RDFLib
+- NetworkX
+- Owlready
 
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Please make sure you have installed all above packages before getting started.
 
 ## :checkered_flag: Starting ##
 
-```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/krw_assign1
+To run the code, follow these steps:
 
-# Access
-$ cd krw_assign1
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
+Clone the repository: git clone https://github.com/agnesadm1997/KRW_assign1.git
+Install the required packages: pip install -r requirements.txt
+Open Jupyter Notebook and navigate to the cloned repository.
+Open the desired notebook file and run the cells.
 
 &#xa0;
 
